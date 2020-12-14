@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-                sh 'https://github.com/AnnaArakelyan909/spring.jsp_loginpage.git'
+                sh 'git clone https://github.com/AnnaArakelyan909/spring.jsp_loginpage.git'
             }
         }
 
